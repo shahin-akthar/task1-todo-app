@@ -1,0 +1,112 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.back-ground {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+.container{
+  background-color: #474d7b;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-family: 'Open Sans';
+  padding: 15px;
+  width: 35vw;
+}
+
+.heading{
+  font-size: 50px;
+  font-weight: 600;
+  padding: 15px;
+  align-self: center;
+}
+
+.input{
+  width: 25vw;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-family:'Open Sans';
+  font-size: 15px;
+  color: #2e2e39;
+  font-weight: 550;
+  margin-left: 35px;
+}
+
+.error{
+   color: white;
+   font-family: 'Open Sans';
+    font-weight: 500;
+    font-size: 15px;
+    padding: 0;
+    margin-left: 35px;
+}
+
+.button{
+  color: white;
+  background-color: #24a0ed;
+  font-family: 'Open Sans';
+  font-weight: 500;
+  font-size: 15px;
+  padding: 8px;
+  width: 100px;
+  border: none;
+  border-radius: 7px;
+  margin: 15px;
+  cursor: pointer;
+  margin-left: 35px;
+}
+
+.todo-container{
+  background-color: #24a0ed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+  border: none;
+  padding-left: 10px;
+  margin-bottom: 13px;
+  margin: 8px;
+}
+
+.todo-text{
+  font-family: 'Open Sans';
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+}
+
+.edit-icon{
+  font-size: 15px;
+  margin-top: 5px;
+  margin-right: 15px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.cross-icon{
+  color: red;
+  font-size: 15px;
+  margin-top: 25px;
+  margin-right: 15px;
+  cursor: pointer;
+}
